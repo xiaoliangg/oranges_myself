@@ -38,4 +38,4 @@ configure时添加 LIBS='-lX11'，如下:
 quit_sim called with exit code 1
 参考: https://sourceforge.net/p/bochs/discussion/39592/thread/d718e25e/
 https://groups.google.com/forum/#!topic/osfromscratch/apeIsZzDhGk
-  vgaromimage: file=bios/VGABIOS-elpin-2.40
+暂未查明原因，网上找的一份配置可实现debug模式启动: https://www.wandouip.com/t5i33394/
