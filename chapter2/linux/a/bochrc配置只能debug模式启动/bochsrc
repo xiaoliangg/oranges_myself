@@ -1,0 +1,23 @@
+#configuration file foe bochs
+
+#how much memory the emulated machine will have
+megs: 32
+
+#filename of ROM images
+romimage:file=/usr/local/share/bochs/BIOS-bochs-latest # 这个文件需要自己在电脑里找
+vgaromimage:file=/usr/local/share/bochs/VGABIOS-lgpl-latest # 这个文件需要自己在电脑里找
+
+#what disk images will be used
+floppya:1_44=a.img,status=inserted
+
+#choose he boot disk
+boot:floppy
+
+#where do we send log messages
+log:bochsout.txt
+
+#disable the mouse
+mouse:enabled=0
+
+#enable key mapping,using US layout as default
+#keyboard:keymap=/home/ubuntu/bochs-2.6.9/gui/keymaps/x11-pc-us.map
